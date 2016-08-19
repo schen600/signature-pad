@@ -282,10 +282,10 @@ function SignaturePad (selector, options) {
       return false
 
     canvasContext.beginPath()
-    canvasContext.lineWidth = settings.lineWidth
+    canvasContext.lineWidth = settings.lineWidth + 50
     canvasContext.strokeStyle = settings.lineColour
-    canvasContext.moveTo(settings.lineMargin, 0)
-    canvasContext.lineTo(element.width - settings.lineMargin, 0)
+    canvasContext.moveTo(settings.lineMargin, settings.lineTop)
+    canvasContext.lineTo(element.width - settings.lineMargin, settings.lineTop)
     canvasContext.stroke()
     canvasContext.closePath()
   }
