@@ -868,7 +868,7 @@ $.fn.signaturePad.defaults = {
   , lineColour : '#ccc' // Colour of the signature line
   , lineWidth : 2 // Thickness of the signature line
   , lineMargin : 5 // Margin on right and left of signature line
-  , lineTop : 50 // Distance to draw the line from the top
+  , lineTop : 100 // Distance to draw the line from the top
   , name : '.name' // The input field for typing a name
   , typed : '.typed' // The Html element to accept the printed name
   , clear : '.clearButton' // Button for clearing the canvas
