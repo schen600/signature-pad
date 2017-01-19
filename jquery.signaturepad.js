@@ -862,7 +862,7 @@ $.fn.signaturePad.defaults = {
   , sig : '.sig' // Parts of the signature form that require Javascript (hidden by default)
   , sigNav : '.sigNav' // The TypeIt/DrawIt navigation (hidden by default)
   , bgColour : '#ffffff' // The colour fill for the background of the canvas; or transparent
-  , penColour : '#145394' // Colour of the drawing ink
+  , penColour : '#00000' // Colour of the drawing ink
   , penWidth : 2 // Thickness of the pen
   , penCap : 'round' // Determines how the end points of each line are drawn (values: 'butt', 'round', 'square')
   , lineColour : '#ccc' // Colour of the signature line
